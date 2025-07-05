@@ -1,0 +1,88 @@
+{
+  "name": "Simple-flexoki",
+  "author": "Han Xx",
+  "dark": true,
+  "editorScheme": "/Beauty0702.xml",
+  "colors": {
+    "mainBackground": "#080A0B",
+    "toolsBackground": "#0f0f13",
+    "divider": "#101014",
+    "outline": "#26262a",
+    "blueButton": "#1e44d4",
+    "darkButton": "#0f0f13",
+    "testColor": "#36577f",
+    "blueStartBtn": "#2444cd",
+    "blueEndBtn": "#2846c4",
+    "blueFocusColorBtn": "#2a4aff",
+    "blueFocusedBorderBtn": "#2a4aff",
+    "darkStartBtn": "#101014",
+    "darkEndBtn": "#111116",
+    "darkStartBorderColor": "#1e1e24",
+    "darkEndBorderColor": "#282830",
+    "darkFocusColorBtn": "#3054d1",
+    "darkFocusBorderBtn": "#3054d1",
+    "disabledBtn": "#1a1e2d",
+    "separator": "#2a2e38"
+  },
+  "ui": {
+    "*": {
+      "background": "toolsBackground",
+      "inactiveBackground": "toolsBackground",
+      "divider": "divider",
+      "selectionBackground": "#2a4aff",
+      "selectionBorderColor": "#3a5fff",
+      "borderColor": "separator",
+      "separatorColor": "separator"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "toolsBackground"
+    },
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "#223374",
+        "hoverBackground": "#2a467b"
+      },
+      "Header": {
+        "inactiveBackground": "toolsBackground"
+      }
+    },
+    "ActionButton": {
+      "hoverBackground": "#2a467b",
+      "hoverBorderColor": "#2a467b",
+      "pressedBackground": "#2a467b",
+      "pressedBorderColor": "#2a467b"
+    },
+    "Button": {
+      "startBackground": "darkStartBtn",
+      "endBackground": "darkEndBtn",
+      "startBorderColor": "darkStartBorderColor",
+      "endBorderColor": "darkEndBorderColor",
+      "focusedBorderColor": "blueFocusedBorderBtn",
+      "disabledBorderColor": "disabledBtn",
+      "default": {
+        "startBackground": "blueStartBtn",
+        "endBackground": "blueEndBtn",
+        "startBorderColor": "blueStartBtn",
+        "endBorderColor": "blueEndBtn",
+        "focusColor": "blueFocusColorBtn",
+        "focusedBorderColor": "blueFocusedBorderBtn"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "toolsBackground"
+      }
+    },
+    "Borders.color": "separator",
+    "Notification": {
+      "errorBackground": "#3a2124"
+    },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "#1a1f3a",
+        "hoverBackground": "#22284a"
+      }
+    },
+    "Tree.rowHeight": 1.5
+  }
+}
