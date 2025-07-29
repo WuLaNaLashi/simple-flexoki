@@ -1,41 +1,33 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>simple-flexoki</id>
-    <version>0.0.1</version>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Plugin display name here</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
-    <!-- Public plugin name should be written in Title Case.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Simple-flexoki</name>
-    <category>UI</category>
-
-    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor>HanXx</vendor>
-
-    <idea-version since-build="242"/>
-
-    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description><![CDATA[
-        A simple impl for Flexoki color scheme. Only test with CLion. <br>
-        一个基于 Flexoki 配色的简单主题，目前仅实现了一个黑乎乎的版本。在 CLion 上 进行了测试。<br>
-        如果你觉得还不错可以打赏5毛给我吃冰棍！！<br>
-        <img src="https://p.sda1.dev/25/611547c8523d005ccfbd1d4e4e9f7b85/ailipay.png" >
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
     ]]></description>
 
-    <!-- Short summary of new features and bugfixes in the latest plugin version.
-         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes><![CDATA[
-    TODO : <br>
-    1. 背景太黑其实效果一般 <br>
-    2. 添加浅色版本 <br>
-  ]]></change-notes>
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
 
-    <!-- Product and plugin compatibility requirements.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <depends>com.intellij.modules.platform</depends>
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="simple-flexoki" path="/theme/simpleflexoki.theme.json"/>
-    </extensions>
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
 </idea-plugin>
