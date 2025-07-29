@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>simple-flexoki</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -18,9 +18,8 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
         This is a simple and elegant color scheme based on  <a href="https://github.com/kepano/flexoki">Flexoki</a>. <br>
-        一个基于 Flexoki 配色的简单、优雅的主题，目前仅实现了一个黑乎乎的版本。<br>
-        如果你觉得还不错可以打赏5毛给我吃冰棍！！<br>
-        <img src="https://p.sda1.dev/25/611547c8523d005ccfbd1d4e4e9f7b85/ailipay.png" >
+        So far, only the dark version has been implemented, and the light version and other variants are still under development.<br>
+        Hope you like it. <br>
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
