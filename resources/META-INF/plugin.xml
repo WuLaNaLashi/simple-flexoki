@@ -1,12 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>simple-flexoki</id>
-    <version>0.0.6</version>
+    <id>Fixed-Solarized</id>
+    <version>0.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Simple-flexoki</name>
+    <name>Fixed-Solarized</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -17,8 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-        This is a simple and elegant color scheme based on  <a href="https://github.com/kepano/flexoki">Flexoki</a>. <br>
-        So far, only the dark version has been implemented, and the light version and other variants are still under development.<br>
+        A theme based on Solarized for better experience. <br>
         Hope you like it. <br>
     ]]></description>
 
@@ -26,8 +25,7 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
     TODO : <br>
-    1. 背景太黑其实效果一般 <br>
-    2. 添加浅色版本 <br>
+        1. 针对c++调整语法高亮 <br>
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -35,6 +33,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="simple-flexoki" path="/theme/simpleflexoki.theme.json"/>
+        <themeProvider id="Fixed-Solarized" path="/theme/SolarizedDark.theme.json"/>
+        <themeProvider id="Fixed-Solarized-Light" path="/theme/SolarizedLight.theme.json"/>
     </extensions>
 </idea-plugin>
