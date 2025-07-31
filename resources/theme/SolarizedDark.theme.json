@@ -614,7 +614,7 @@
       "errorForeground": "#FA6060",
       "hash": "#2B515E",
       "modifiedItemForeground": "#519AF2",
-      "rowHeight": 1.5
+      "rowHeight": 0
     },
     "UiDesigner": {
       "Panel": {},
