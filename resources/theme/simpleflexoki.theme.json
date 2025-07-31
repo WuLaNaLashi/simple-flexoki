@@ -83,6 +83,6 @@
         "hoverBackground": "#22284a"
       }
     },
-    "Tree.rowHeight": 1.5
+    "Tree.rowHeight": 0
   }
 }
