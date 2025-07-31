@@ -1,10 +1,10 @@
 {
   "name": "Solarized Dark",
   "dark": true,
-  "author": "4lex4",
-  "editorScheme": "/editor/SolarizedDark.xml",
+  "author": "HanXx",
+  "editorScheme": "/editor/Better_Solarized_Dark.xml",
   "colors": {
-    "colorBackground": "#0E3C4A",
+    "colorBackground": "#002B36",
     "colorForeground": "#A9B3AE",
     "colorInactiveForeground": "#839496",
     "colorSelectionBackground": "#1C62C9",
