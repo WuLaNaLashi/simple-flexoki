@@ -1,7 +1,7 @@
 {
-  "name": "Solarized Light",
+  "name": "Fixed Solarized Light",
   "dark": false,
-  "author": "4lex4",
+  "author": "HanXx",
   "editorScheme": "/editor/SolarizedLight.xml",
   "colors": {
     "colorBackground": "#EEE8D5",
