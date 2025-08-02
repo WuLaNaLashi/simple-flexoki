@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>Fixed-Solarized</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -17,7 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-        A theme based on Solarized for better experience. <br>
+        A theme based on Solarized for better experience. I use C++ so may look better with cpp files. <br>
         Hope you like it. <br>
     ]]></description>
 
@@ -28,6 +28,7 @@
         0.0.3 : Make the window frame and editor look more unified. <br>
         0.0.4 : Modify rowHeight to 24px. <br>
         0.0.5 : Update theme names to prevent confusion. <br>
+        0.0.6 : Update Light Mode
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

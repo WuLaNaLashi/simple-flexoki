@@ -2,9 +2,9 @@
   "name": "Fixed Solarized Light",
   "dark": false,
   "author": "HanXx",
-  "editorScheme": "/editor/SolarizedLight.xml",
+  "editorScheme": "/editor/Better_Solarized_Light.xml",
   "colors": {
-    "colorBackground": "#EEE8D5",
+    "colorBackground": "#FFFCF0",
     "colorForeground": "#37352F",
     "colorInactiveForeground": "#657B83",
     "colorSelectionBackground": "#3570CD",
