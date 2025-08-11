@@ -281,7 +281,8 @@
       "visitedForeground": "#519AF2"
     },
     "List": {
-      "dropLineColor": "colorAcceleratorForeground"
+      "dropLineColor": "colorAcceleratorForeground",
+      "rowHeight" : 24
     },
     "MemoryIndicator": {
       "allocatedBackground": "#3B5760",
@@ -574,6 +575,7 @@
       "light": "colorHighlight",
       "shadow": "colorShadow"
     },
+    "CheckBox.iconSize" : 24,
     "Toolbar": {
       "Floating": {
         "background": "#174857"

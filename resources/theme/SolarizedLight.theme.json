@@ -287,7 +287,8 @@
     },
     "List": {
       "background": "colorAlternativeBackground",
-      "dropLineColor": "colorAcceleratorForeground"
+      "dropLineColor": "colorAcceleratorForeground",
+      "rowHeight" : 24
     },
     "MemoryIndicator": {
       "allocatedBackground": "#CFD0C3",
